@@ -4,6 +4,6 @@ function create(text){
     document.body.appendChild(p);
 }
 for (let i=1; i<=10; i++){
-    create(`Line ${i}`);
+    create(`${i}`);
 } 
 
